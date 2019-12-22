@@ -15,7 +15,7 @@ body {
 
 .logo {
   background: url("../resources/logo/logo.png");
-  height: 27px;	
+  height: 27px;
   width: 200px;
 }
 
@@ -37,37 +37,33 @@ body {
 .are-you-the-develope {
   color: #1B1D1F;
   font-weight: 600;
-  font-size: 34px;	
+  font-size: 34px;
   line-height: 51px;
   text-align: center;
 }
 
-.nam-porttitor-blandi {	
-  color: #52585E;	
-  font-size: 16px;	
-  line-height: 28px;	
+.nam-porttitor-blandi {
+  color: #52585E;
+  font-size: 16px;
+  line-height: 28px;
   text-align: center;
   margin: 10px 0 32px 0;
 }
 
-.rectangle {	
-  height: 55px;	
-  width: 160px;	
-  background-color: #00BFF3;
-}
-
-.button {	
-  height: 100%;
-  color: #FFFFFF;	
-  font-weight: 500;	
-  font-size: 16px;	
-  line-height: 25px;	
+button {
+  height: 55px;
+  width: 160px;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #00BFF3;
 }
 
-.three-big-icons {	
+.three-big-icons {
   width: 100%;
   margin: 0 auto;
   display: flex;
@@ -80,42 +76,37 @@ body {
   margin: 0 30px;
 }
 
-.donec-facili {	
-  height: 25px;	
-  color: #1C1C1C;	
-  font-weight: 400;	
-  font-size: 18px;	
-  line-height: 27px;	
+.donec-facili {
+  color: #1C1C1C;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
   text-align: center;
   margin: 30px 0 10px 0;
 }
 
-.fusce-vehicula-dolor {	
-  color: #52585E;	
-  font-size: 16px;	
-  line-height: 28px;	
+.fusce-vehicula-dolor {
+  color: #52585E;
+  font-size: 16px;
+  line-height: 28px;
   text-align: center;
 }
 
-.abacus {
-  background: url("../resources/big\ icon\ 1/abacus.png");
-}
+.facebook { background: url("../resources/social\ icons/facebook/facebook-f.png"); }
+.instagram { background: url("../resources/social\ icons/instagram/instagram.png"); }
+.linkedin { background: url("../resources/social\ icons/linkedin/linkedin-in.png"); }
 
-.bullseye {
-  background: url("../resources/big\ icon\ 2/bullseye-arrow.png");
-}
-
-.laptop {
-  background: url("../resources/big\ icon\ 3/laptop-code.png");
-}
+.abacus { background: url("../resources/big\ icon\ 1/abacus.png"); }
+.bullseye { background: url("../resources/big\ icon\ 2/bullseye-arrow.png"); }
+.laptop { background: url("../resources/big\ icon\ 3/laptop-code.png"); }
 
 .icons {	
-  height: 58px;	
-  width: 66px;	
-  color: #00BFF3;	
-  font-size: 58px;	
-  font-weight: 300;	
-  line-height: 58px;	
+  height: 58px;
+  width: 66px;
+  color: #00BFF3;
+  font-size: 58px;
+  font-weight: 300;
+  line-height: 58px;
   text-align: center;
   margin: 0 auto;
   background-size: contain;
@@ -123,16 +114,26 @@ body {
   background-position: center;
 }
 
-.column-system, .content-generator {	
-  color: #1B1D1F;	
-  font-weight: 600;	
-  font-size: 34px;	
+.footer-icons {
+  border: 1px solid white;
+  border-radius: 50%;
+  height: 42px;
+  width: 42px;
+  background-size: auto;
+  margin: 0 .1em;
+}
+
+.column-system, .content-generator, .vacancies, .centered {
+  color: #1B1D1F;
+  font-weight: 600;
+  font-size: 34px;
   line-height: 51px;
   margin-top: 3em;
 }
 
 .column-system h2 {
   text-align: left;
+  font-weight: 600;
 }
 
 .one-full {
@@ -156,10 +157,65 @@ body {
 .far-far-away-behind {
   width: 100%;	
   color: #52585E;
-  font-size: 16px;	
+  font-size: 16px;
   line-height: 28px;
   font-weight: 200;
 }
 
+.code > p {
+  font-weight: 200;
+  font-size: 16px;
+}
 
+.vacancies p {
+  width: 730px;
+}
 
+/* #00BFF3 */
+
+.vacancies-container {
+  margin: 65px 0;
+}
+
+.vacancies-card {
+  margin: 20px 0;
+}
+
+.vacancies-card .subtitle{
+  width: 100%;
+  color: #00BFF3;
+  font-size: 16px;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.centered {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.centered p {
+  width: 730px;
+  margin: 0 auto;
+}
+
+footer {
+  background: black;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons-container {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container p {
+  color: white;
+  margin: 20px 0;
+}
